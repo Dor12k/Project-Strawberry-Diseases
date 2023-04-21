@@ -4,22 +4,22 @@ In this project we implements system of strawberry diseases classification.
 We build **Android application** wich allow users to classification strawberry plant leafs diseases by selecting image from pictures library or right from the camera.
 We alse build **website** wich allow users to upload image of plant leafs strawberry and get the right classification.
 
-First, we prepare the dataset and builds the model by using transfer learning technique on different models like VGG16, VGG19 and ResNet50.
+First, we prepare the dataset and builds the model by using transfer learning technique on different models like **VGG16, VGG19 and ResNet50.**
 We compere the models performence and choose the optimial model for our project.
-We work with Google Colab and use Tensorflow with Keras in Python.
-We also use libraries like numpy, matplotlib, os, json etc.
+We work with **Google Colab** and use **Tensorflow** with **Keras** in **Python**.
+We also use libraries like **numpy, matplotlib, os, json** etc.
 
-Second, we build our servers. the main server implement by FastAPI wich treat all the request from the client and make general calculates.
-The FastAPI deosn't make the model prediction. that request sends to the TensorFlow server that uses ResNet50 model to predict the classification and return the results to the user.
-We make this part with Docker and with Python in PyCharm and use libraries like PIL, numpy, io, uvicron, FastAPI TensowFlow etc.
+Second, we build our servers. the main server implement by **FastAPI** wich treat all the request from the client and make general calculates.
+The **FastAPI** deosn't make the model prediction. that request sends to the **TensorFlow** server that uses ResNet50 model to predict the classification and return the results to the user.
+We make this part with **Docker** and with **Python** in **PyCharm** and use libraries like **PIL, numpy, io, uvicron, FastAPI TensowFlow** etc.
 
-Third part is building the website with React JS. 
+Third part is building the website with **React JS**. 
 The website allow users upload image of plant leafs and strawberries and  and get the right classification of its diseas as we can see in the pictures below. 
-We make this part with Visual Studio Code.
+We make this part with **Visual Studio Code**.
 
 Last part is building the application.
-We build android application with Java in Android Studio.
-The application allows users to classification image of plant leafs and strawberries  from pictures library or from the camera as we see in the video below.
+We build android application with **Java** in **Android Studio**.
+The application allows users to classification image of plant leafs and strawberries from pictures library or from the camera as we see in the video below.
 
 Application preview:
 
