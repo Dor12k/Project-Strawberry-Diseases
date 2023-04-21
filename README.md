@@ -1,8 +1,8 @@
 # Project Strawberry Diseases Classification
 
 In this project we implements system of strawberry diseases classification. 
-We build Android application wich allow users to classification strawberry plant leafs diseases by selecting image from pictures library or right from the camera.
-We alse build website wich allow users to upload image of plant leafs strawberry and get the right classification.
+We build **Android application** wich allow users to classification strawberry plant leafs diseases by selecting image from pictures library or right from the camera.
+We alse build **website** wich allow users to upload image of plant leafs strawberry and get the right classification.
 
 First, we prepare the dataset and builds the model by using transfer learning technique on different models like VGG16, VGG19 and ResNet50.
 We compere the models performence and choose the optimial model for our project.
