@@ -22,7 +22,9 @@ We build android application with Java in Android Studio.
 The application allows users to classification image of plant leafs and strawberries  from pictures library or from the camera as we see in the video below.
 
 Application preview:
-https://user-images.githubusercontent.com/107938584/233727253-6941dd5a-087d-4719-9de1-cdb2ee6088e5.mp4
+
+https://user-images.githubusercontent.com/107938584/233730246-221a2467-181f-4dad-bf57-f149ee825de7.mp4
+
 
 
 Website preview 1:
