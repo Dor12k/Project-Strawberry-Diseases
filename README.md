@@ -23,7 +23,8 @@ The application allows users to classification image of plant leafs and strawber
 
 Application preview:
 
-https://user-images.githubusercontent.com/107938584/233730246-221a2467-181f-4dad-bf57-f149ee825de7.mp4
+https://user-images.githubusercontent.com/107938584/233852448-9e6f4fb8-e9a1-470b-9ca9-ccdd5e777a2e.mp4
+
 
 
 
