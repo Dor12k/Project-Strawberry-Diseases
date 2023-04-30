@@ -32,6 +32,7 @@ Website preview 1:
 ![web 7](https://user-images.githubusercontent.com/107938584/233727314-94c2b512-7465-417d-a9bb-2bedfc0622eb.jpg)
 
 
+
 Website preview 2:
 ![web 8](https://user-images.githubusercontent.com/107938584/233727344-8c8e2b12-e4f0-4784-afc8-2d1e7283ae05.jpg)
 
