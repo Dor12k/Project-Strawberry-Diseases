@@ -1,46 +1,39 @@
 # Project Strawberry Diseases Classification
 
-In this project we implements system of strawberry diseases classification. 
-We build **Android application** wich allow users to classify strawberry plant leaf diseases by selecting image from pictures library or right from the camera.
-We alse build **website** wich allow users to upload image of plant leaf strawberry and get the right classification.
+application that allows users to classify strawberry plant leaf diseases by selecting images from their photo library or capturing them directly with their camera. 
+Additionally, we created a website that enables users to upload images of strawberry leaves and receive accurate classifications.
 
-First, we prepare the dataset and builds the model by using transfer learning technique on different models like **VGG16, VGG19 and ResNet50.**
-We compere the models performence and choose the optimial model for our project.
-We work with **Google Colab** and use **Tensorflow** with **Keras** in **Python**.
-We also use libraries like **numpy, matplotlib, os, json** etc.
+**Dataset Preparation and Model Building:** First, we prepared the dataset and built the model using transfer learning techniques on various architectures, including **VGG16, VGG19**, and **ResNet50**. 
+We compared the performance of these models to select the optimal one for our project. We utilized Google Colab and employed TensorFlow with Keras in Python, along with libraries such as **NumPy**, **Matplotlib**, and **JSON** for data handling and visualization.
 
-Second, we build our servers. the main server implement by **FastAPI** wich treat all the request from the client and make general calculates.
-The **FastAPI** deosn't make the model prediction. that request sends to the **TensorFlow** server that uses ResNet50 model to predict the classification and return the results to the user.
-We make this part with **Docker** and with **Python** in **PyCharm** and use libraries like **PIL, numpy, io, uvicron, FastAPI TensowFlow** etc.
+**Server Development:** Next, we established our servers. The main server is implemented using **FastAPI**, which handles all client requests and performs general calculations. While FastAPI manages these requests, the actual model predictions are delegated to a separate **TensorFlow** server that utilizes the ResNet50 model to classify the images and return the results to the user. This component was developed using **Docker** and **Python** in **PyCharm**, incorporating libraries such as **PIL**, **NumPy**, and **Uvicorn**.
 
-Third part is building the website with **React JS**. 
-The website allow users upload image of plant leafs and strawberries and  and get the right classification of its diseas as we can see in the pictures below. 
-We make this part with **Visual Studio Code**.
+**Website Development:** The third phase involved building the website with **React.js.** This site allows users to upload images of plant leaves and strawberries and receive accurate disease classifications, as illustrated in the images below. We developed this section using Visual Studio Code.
 
-Last part is building the application.
-We build android application with **Java** in **Android Studio**.
-The application allows users to classification image of plant leafs and strawberries from pictures library or from the camera as we see in the video below.
+**Android Application Development:** Finally, we created the Android application using Java in Android Studio. This app empowers users to classify images of plant leaves and strawberries from their photo library or directly from the camera, as demonstrated in the accompanying video.
 
-Graph:
+**Graph:**
 
 ![Graph1](https://user-images.githubusercontent.com/107938584/236171723-07a64642-6fa0-40b0-80ce-fdac242fe38d.jpg)
 
 
 
 
-Application preview:
+**Application preview:**
 
 https://user-images.githubusercontent.com/107938584/233852448-9e6f4fb8-e9a1-470b-9ca9-ccdd5e777a2e.mp4
 
 
 
 
-Website preview 1:
+**Website preview 1:**
+
 ![web 7](https://user-images.githubusercontent.com/107938584/233727314-94c2b512-7465-417d-a9bb-2bedfc0622eb.jpg)
 
 
 
-Website preview 2:
+**Website preview 2:**
+
 ![web 8](https://user-images.githubusercontent.com/107938584/233727344-8c8e2b12-e4f0-4784-afc8-2d1e7283ae05.jpg)
 
 
