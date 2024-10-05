@@ -25,7 +25,6 @@ https://user-images.githubusercontent.com/107938584/233852448-9e6f4fb8-e9a1-470b
 
 
 
-
 **Website preview 1:**
 
 ![web 7](https://user-images.githubusercontent.com/107938584/233727314-94c2b512-7465-417d-a9bb-2bedfc0622eb.jpg)
